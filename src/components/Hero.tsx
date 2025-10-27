@@ -69,7 +69,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-base sm:text-lg text-muted-foreground mb-10 sm:mb-12 max-w-2xl mx-auto">Tailorec is your AI-powered career companion that understands your skills, experience, and goals, not just your job title.
+          className="text-base sm:text-lg text-muted-foreground mb-10 sm:mb-12 max-w-2xl mx-auto !whitespace-pre-line">Tailorec is your AI-powered career companion that understands your skills, experience, and goals, not just your job title.
 
 
         </motion.p>
