@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-pink-500/10 rounded-full blur-3xl animate-pulse delay-500" />
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center !shadow-[0_2px_4px_0_rgba(0,0,0,0.15)] !shadow-none">
         {/* Logo */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
