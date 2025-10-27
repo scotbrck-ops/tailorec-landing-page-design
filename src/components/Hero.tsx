@@ -34,7 +34,7 @@ export default function Hero() {
           className="mb-8 sm:mb-12">
 
           <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/4d236096-5620-493b-a6ce-6c97a6b3c941/visual-edit-uploads/1761564793172-eqywj1ukqpn.png"
+            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/4d236096-5620-493b-a6ce-6c97a6b3c941/visual-edit-uploads/1761565140140-qvstkeuw60a.png"
             alt="Tailorec"
             width={500}
             height={120}
