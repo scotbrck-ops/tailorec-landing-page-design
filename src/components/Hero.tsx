@@ -38,7 +38,7 @@ export default function Hero() {
             alt="Tailorec"
             width={500}
             height={120}
-            className="mx-auto max-w-md !w-[512px] !h-full sm:!max-w-lg"
+            className="mx-auto max-w-md !w-[512px] !h-full sm:!max-w-lg !text-xl !block !opacity-100 !bg-transparent !shadow-[0_32px_48px_-8px_rgba(0,0,0,0.3),0_16px_24px_-8px_rgba(0,0,0,0.2)]"
             priority />
 
         </motion.div>
