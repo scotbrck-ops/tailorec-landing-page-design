@@ -58,7 +58,7 @@ export default function Header() {
                 className="h-7 sm:h-8 w-auto"
                 priority />
 
-              <span className="absolute -top-2 -right-8 bg-gradient-primary text-[10px] font-bold px-1.5 py-0.5 rounded !text-white !opacity-100 !bg-black">
+              <span className="absolute -top-2 -right-8 bg-gradient-primary text-[10px] font-bold px-1.5 py-0.5 rounded !text-white !opacity-100 !bg-neutral-900">
                 BETA
               </span>
             </div>
