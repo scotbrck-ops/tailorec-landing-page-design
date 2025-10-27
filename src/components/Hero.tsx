@@ -60,7 +60,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 max-w-3xl mx-auto">Tailored job matches, powered by AI. 
+          className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 max-w-3xl mx-auto !whitespace-pre-line">Tailored job matches, powered by AI. 
 
 
         </motion.p>
@@ -69,9 +69,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-base sm:text-lg text-muted-foreground mb-10 sm:mb-12 max-w-2xl mx-auto">
+          className="text-base sm:text-lg text-muted-foreground mb-10 sm:mb-12 max-w-2xl mx-auto">Tailorec is your AI-powered career companion that understands your skills, experience, and goals, not just your job title.
 
-          Tailorec is your AI-powered career companion that understands your skills, experience, and goals—not just your job title.
+
         </motion.p>
 
         {/* Email Signup Form */}
