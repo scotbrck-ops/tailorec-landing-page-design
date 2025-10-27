@@ -31,16 +31,16 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="mb-8 sm:mb-12"
-        >
+          className="mb-8 sm:mb-12">
+
           <Image
             src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/1b-Picsart-AiImageEnhancer-1761549901796.png"
             alt="Tailorec"
             width={500}
             height={120}
             className="mx-auto w-full max-w-md sm:max-w-lg h-auto"
-            priority
-          />
+            priority />
+
         </motion.div>
 
         {/* Headline */}
@@ -48,8 +48,8 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
-        >
+          className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight lg:!text-6xl">
+
           Find Jobs That Fit.
           <br />
           Not Just Jobs That Exist.
@@ -60,17 +60,17 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 max-w-3xl mx-auto"
-        >
-          Tailored job matches, powered by AI. Because your career deserves more than a keyword search.
+          className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 max-w-3xl mx-auto">Tailored job matches, powered by AI. 
+
+
         </motion.p>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-base sm:text-lg text-muted-foreground mb-10 sm:mb-12 max-w-2xl mx-auto"
-        >
+          className="text-base sm:text-lg text-muted-foreground mb-10 sm:mb-12 max-w-2xl mx-auto">
+
           Tailorec is your AI-powered career companion that understands your skills, experience, and goals—not just your job title.
         </motion.p>
 
@@ -80,20 +80,20 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           onSubmit={handleSubmit}
-          className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto liquid-glass p-2 rounded-xl"
-        >
+          className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto liquid-glass p-2 rounded-xl">
+
           <Input
             type="email"
             placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="flex-1 bg-white/50 border-white/20 focus:border-primary"
-          />
+            className="flex-1 bg-white/50 border-white/20 focus:border-primary" />
+
           <Button
             type="submit"
-            className="gradient-primary text-white hover:opacity-90 transition-opacity group"
-          >
+            className="gradient-primary text-white hover:opacity-90 transition-opacity group">
+
             Get Early Access
             <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </Button>
@@ -104,17 +104,17 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
-          className="mt-16 sm:mt-20"
-        >
+          className="mt-16 sm:mt-20">
+
           <div className="w-6 h-10 border-2 border-foreground/20 rounded-full mx-auto flex items-start justify-center p-2">
             <motion.div
               animate={{ y: [0, 12, 0] }}
               transition={{ duration: 1.5, repeat: Infinity }}
-              className="w-1.5 h-1.5 bg-foreground/40 rounded-full"
-            />
+              className="w-1.5 h-1.5 bg-foreground/40 rounded-full" />
+
           </div>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
