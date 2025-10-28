@@ -48,7 +48,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight lg:!text-6xl !border-0 !shadow-none !bg-transparent !border-transparent">
+          className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight lg:!text-6xl !border-0 !shadow-none !border-transparent !bg-transparent">
 
           Find Jobs That Fit.
           <br />
