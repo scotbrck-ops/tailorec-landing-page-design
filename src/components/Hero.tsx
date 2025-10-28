@@ -38,7 +38,7 @@ export default function Hero() {
             alt="Tailorec"
             width={500}
             height={120}
-            className="max-w-md !w-[512px] !h-full sm:!max-w-lg !text-xl !block !opacity-100 !bg-transparent !shadow-[0_32px_48px_-8px_rgba(0,0,0,0.3),0_16px_24px_-8px_rgba(0,0,0,0.2)] !shadow-[0_2px_4px_0_rgba(0,0,0,0.15)] !mx-[151px] !text-center !text-black"
+            className="max-w-md !w-[512px] !h-full sm:!max-w-lg !block !opacity-100 !bg-transparent !shadow-[0_32px_48px_-8px_rgba(0,0,0,0.3),0_16px_24px_-8px_rgba(0,0,0,0.2)] !shadow-[0_2px_4px_0_rgba(0,0,0,0.15)] !mx-[151px] !text-center !text-black !text-xl !shadow-none"
             priority />
 
         </motion.div>
